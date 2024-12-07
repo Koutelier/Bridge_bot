@@ -1,0 +1,31 @@
+{
+  "prices": {
+    "ada": "https://api5.splash.trade/platform-api/v1/ada-usd/rate",
+    "erg": "https://api.coingecko.com/api/v3/simple/price?ids=ergo&vs_currencies=usd",
+    "btc": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
+  },
+  "markets": {
+    "ergo_market": "https://api.cruxfinance.io/crux/token_info/{token_id}",
+    "cardano_market": "https://api-us.dexhunterv3.app/swap/averagePrice/ADA/{policy_id}"
+  },
+  "tokens": {
+    "ergo_native": {
+      "comet": "0cd8c9f416e5b1ca9f986a7f10a84191dfb85941619e49e53c0dc30ebf83324b",
+      "rsn": "8b08cdd5449a9592a9e79711d7d79249d7a03c535d17efaee83e216e80a44c4b",
+      "hosky": "6ad70cdbf928a2bdd397041a36a5c2490a35beb4d20eabb5666f004b103c7189",
+      "walrus": "59ee24951ce668f0ed32bdb2e2e5731b6c36128748a3b23c28407c5f8ccbf0f6",
+      "dis": "b780a9682ba1ea68eedfe3dd00169e414ea8968d96142ee95e2391d64df05c3d",
+      "ada": "e023c5f382b6e96fbd878f6811aac73345489032157ad5affb84aefd4956c297",
+      "btc": "7a51950e5f548549ec1aa63ffdc38279505b11e7e803d01bcf8347e0123c88b0"
+    },
+    "cardano_native": {
+      "comet": "d85d4588d4625b370121597ff88f3c1fa66f2a0cb7e4a7a9573a3c3e7273434f4d4554",
+      "walrus": "12f76218ef19e357b0684d3a9ebe0c66aa18dd9e4cf496161e6d98a8727357414c525553",
+      "rsn": "04b95368393c821f180deee8229fbd941baaf9bd748ebcdbf7adbb14727352534e",
+      "hosky": "a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59",
+      "dis": "5612bee388219c1b76fd527ed0fa5aa1d28652838bcab4ee4ee63197446973636f696e",
+      "erg": "04b95368393c821f180deee8229fbd941baaf9bd748ebcdbf7adbb147273455247",
+      "btc": "2dbc49f682ad21f6d18705cf446f9f7a277731ab70ae21a454f888b27273425443"
+    }
+  }
+}
